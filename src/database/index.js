@@ -24,7 +24,7 @@ class Database {
   }
   mongo() {
     this.mongoConnection = mongoose.connect(
-      'mongodb://localhost:27017/devburger ',
+      'mongodb+srv://Erikborges:PZHvafNAFhpr9tu@users.a0tzw.mongodb.net/?retryWrites=true&w=majority&appName=Users',
     );
   }
 }
